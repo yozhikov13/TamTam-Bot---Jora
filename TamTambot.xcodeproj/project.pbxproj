@@ -6,10 +6,23 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		84043BAB21A02BA600447B1B /* bot.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = bot.py; sourceTree = "<group>"; };
+		84043BAC21A0323800447B1B /* tamtam */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tamtam; sourceTree = "<group>"; };
+		84043BAD21A0323800447B1B /* jira_connector */ = {isa = PBXFileReference; lastKnownFileType = folder; path = jira_connector; sourceTree = "<group>"; };
+		84043BAE21A0E31C00447B1B /* config.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = config.py; sourceTree = "<group>"; };
+		844907EF22D522BE00EF863B /* vestnik.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = vestnik.py; path = ../../../vestnik.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		84043BA021A02B5F00447B1B = {
 			isa = PBXGroup;
 			children = (
+				84043BAD21A0323800447B1B /* jira_connector */,
+				84043BAC21A0323800447B1B /* tamtam */,
+				84043BAB21A02BA600447B1B /* bot.py */,
+				844907EF22D522BE00EF863B /* vestnik.py */,
+				84043BAE21A0E31C00447B1B /* config.py */,
 			);
 			sourceTree = "<group>";
 		};
